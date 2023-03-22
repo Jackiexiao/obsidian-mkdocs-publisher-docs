@@ -40,8 +40,9 @@ Alternatively, you can follow these steps:
 
 ![config_netlify](https://i.imgur.com/ESc9vLu.png)  
 - Add an environment variable with `PYTHON_VERSION` set to `3.8` or include a `runtime.txt` file in the root of your repository with the same value.  
-- To improve deployment time and reduce bandwidth usage, you can disable deployment previews in the site settings by navigating to Settings > Build & Deploy > Deploy Preview and unchecking the box.  
-![picture 1](https://i.imgur.com/DNS0DdX.png)  
+- To improve deployment time and reduce bandwidth usage, you can disable deployment previews in the site settings by navigating to Settings > Build & Deploy > Branches and deploy contexts > Edit Setting > set `Deploy Preview` to None.  
+
+![image](https://user-images.githubusercontent.com/18050469/226814411-5a91da01-83b0-4d4f-a81c-0102e4dcfab9.png)
   
 
 > [!note] It may be necessary to delete your `gh-pages` branch in GitHub to remove GitHub Pages.  
